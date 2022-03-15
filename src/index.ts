@@ -51,3 +51,21 @@ let kunUz = {
 }
 
 console.log(kunUz);
+
+
+type MaktabSinf = {
+  direction: string,
+  class: string,
+  studentsName: string[],
+  teacherClass: string
+}
+
+
+let sinfMaktab = {
+  direction: 'Biologiya',
+  class: '9b sinf',
+  studentsName: ['Boltaboy', 'Azizbek', 'Yarash'],
+  teacherClass: 'Ozoda Sobirova'
+}
+
+console.log(sinfMaktab);
